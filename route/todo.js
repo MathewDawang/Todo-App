@@ -1,10 +1,14 @@
-let expresss = require("express"),
-Router = express.Router();
-Router.route("/todo")
-    .get()
+const { Router } = require("express");
+let express = require("express"),
+controller = require("../controller/todo")
+router = express.Router();
+router.route("/todo")
+    .get(controller.getAllTodos)
     .post();
 
-Router.route("/:todo")
+router.route("/:todo")
     .get()
     .patch()
-    .delete()
+    .delete();
+
+    module.exports = router
