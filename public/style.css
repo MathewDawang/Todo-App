@@ -3,22 +3,55 @@
     background: wheat;
     padding: 40px;
     width: 60%;
+    border-radius: 10px;
 }
-.text-input{
+.input{
     width: 80%;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
 }
-button{
+.display{
+    width: 70%;
     height: 40px;
-    width: 60PX;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Addbutton{
+    height: 40px;
+    width: 75PX;
     background-color: brown;
     color: white;
     font-size: 20px;
     border-radius: 10px;  
 }
-    UL{
-        font-size: 24PX;
-        list-style: none;
-    }
+.Delbtn{
+    width: 80px;
+    background-color: brown;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Editbtn{
+    width: 80px;
+background-color: brown;
+color: white;
+height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.DeleteAll{
+    width: 150px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+
+   

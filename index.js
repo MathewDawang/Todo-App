@@ -1,6 +1,6 @@
 let express = require("express"),
 TodoRouter =require("./route/todo")
-TodoStyles = require("./public/style")
+// TodoStyles = require("./public/style")
 app = express();
 app.use("/", TodoRouter)
 
