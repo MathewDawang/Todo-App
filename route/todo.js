@@ -4,7 +4,7 @@ controller = require("../controller/todo"),
 router = express.Router();
 router.route("/todo")
     .get(controller.getAllTodos)
-    .post();
+    .post(controller.createTodo);
 
 router.route("/:todo")
     .get()

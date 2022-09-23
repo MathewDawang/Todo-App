@@ -11,11 +11,11 @@
         <h1>Todo App </h1>
 
     <div class="container">
-        <form>
-            <input type="text" placeholder="Type New Todo" class="input">
+        <form action="/todo" method="POST">
+            <input type="text" placeholder="Type New Todo" class="input" name="newtask">
             <input type="submit" class="Addbutton">
         </form>
-        <div class="Tasks">
+        <div class="Tasks" name="task-list">
             <h1>Tasks</h1>
                 <div class="TodoTask">
                     <input type="screen" readonly class="display">
