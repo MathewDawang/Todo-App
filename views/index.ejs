@@ -9,6 +9,11 @@
     </head>
     <body>
         <h1>Todo App </h1>
+        <%todos.forEach((todo)=> { %>
+            <p><%= todo.task%></p>
+        <%})%>
+
+        
 
     <div class="container">
         <form action="/todo" method="POST">

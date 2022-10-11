@@ -7,8 +7,8 @@ router.route("/todo")
     .post(controller.createTodo);
 
 router.route("/:todo")
-    .get()
-    .patch()
-    .delete();
+    .get(controller.getOneTodo)
+    .patch(controller.updateTodo)
+    .delete(controller.deleteTodo);
 
     module.exports = router

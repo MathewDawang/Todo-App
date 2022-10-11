@@ -1,3 +1,4 @@
+let port = 5000
 let express = require("express"),
 TodoRouter =require("./route/todo")
 // TodoStyles = require("./public/style")
@@ -16,6 +17,6 @@ app.use("/", TodoRouter)
 
 
 
-app.listen(5000, ()=>{
-   console.log("app is listening") 
+app.listen(port, ()=>{
+   console.log(`app is listening on port ${port}`) 
 })
